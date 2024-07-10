@@ -16,7 +16,7 @@ export const ToggleSwitch = forwardRef<any, ShapeProps>(
     const [isOn, setIsOn] = useState(false);
 
     const handleSwitch = () => {
-      //TODO: Only available when shape is selected.
+      //TODO: Only available when shape is selected
       setIsOn(!isOn);
     };
 
